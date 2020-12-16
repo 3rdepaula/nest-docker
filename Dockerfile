@@ -1,5 +1,4 @@
 FROM node:12
-
 RUN mkdir -p /app && chown -R node:node /app
 USER node
 WORKDIR /app
