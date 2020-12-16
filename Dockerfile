@@ -7,8 +7,3 @@ WORKDIR /app
 COPY --chown=node:node package.json package-lock.json ./
 RUN npm install
 
-
-# WORKDIR /app
-# COPY . .
-# RUN npm install -g @nestjs/cli
-# ENTRYPOINT [ "npm", "run", "start" ]
